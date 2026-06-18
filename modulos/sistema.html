@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema Wayna Bus | Cobro Diferenciado</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body class="sys-page with-app-sidebar sidebar-collapsed">
+  <header class="wb-navbar" id="navbar">
+    <div class="wb-navbar__inner">
+      <a class="wb-brand" href="../index.html">
+        <span class="wb-brand__mark">WB</span>
+        <span class="wb-brand__text">Wayna<strong>Bus</strong></span>
+      </a>
+
+      <nav class="wb-nav" id="mainNav">
+        <ul class="wb-nav__list">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="sistema.html">Sistema</a></li>
+          <li><a href="#modulos">M&oacute;dulos</a></li>
+          <li><a href="#registro-cobro">Registro de Cobro</a></li>
+          <li><a href="#reportes">Reportes</a></li>
+          <li><a href="#pronostico">Pron&oacute;stico</a></li>
+          <li><a href="documentacion.html">Documentaci&oacute;n</a></li>
+        </ul>
+      </nav>
+
+      <button class="wb-menu-btn" id="hamburger" type="button" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="wb-progress" id="progressBar"></div>
+  </header>
+
+  <main>
+    <section class="sys-hero" id="inicio">
+      <div class="sys-container sys-hero__grid">
+        <div class="sys-hero__content wb-reveal">
+          <span class="sys-kicker">Sistema operativo Wayna Bus</span>
+          <h1>Sistema Web de Cobro Diferenciado y Pron&oacute;stico de Ingresos</h1>
+          <p>Plataforma visual para registrar cobros por ruta, turno y categor&iacute;a de pasajero, consolidar reportes y estimar ingresos futuros del servicio municipal de El Alto.</p>
+          <div class="sys-hero__actions">
+            <a class="sys-btn sys-btn--primary" href="#registro-cobro">Registrar Cobro</a>
+            <a class="sys-btn sys-btn--ghost" href="#modulos">Ver M&oacute;dulos</a>
+          </div>
+        </div>
+        <div class="sys-console wb-reveal">
+          <div class="sys-console__top">
+            <span>Panel de Recaudaci&oacute;n</span>
+            <strong>Bs 8,450.50</strong>
+          </div>
+<div class="sys-kpi-grid">
+  <article>
+    <div class="sys-kpi-head">
+      <span class="sys-kpi-icon">💳</span>
+      <span>Cobros hoy</span>
+    </div>
+    <strong>286</strong>
+  </article>
+
+  <article>
+    <div class="sys-kpi-head">
+      <span class="sys-kpi-icon">🚌</span>
+      <span>Ruta activa</span>
+    </div>
+    <strong>Ceja - Villa Adela</strong>
+  </article>
+
+  <article>
+    <div class="sys-kpi-head">
+      <span class="sys-kpi-icon">📈</span>
+      <span>Pronóstico semanal</span>
+    </div>
+    <strong>+12.8%</strong>
+  </article>
+</div>
+          <div class="sys-mini-chart" aria-hidden="true">
+            <span style="height:42%"></span>
+            <span style="height:64%"></span>
+            <span style="height:52%"></span>
+            <span style="height:78%"></span>
+            <span style="height:68%"></span>
+            <span style="height:88%"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sys-section" id="modulos">
+      <div class="sys-container">
+        <div class="sys-section__head wb-reveal">
+          <span class="sys-kicker">Arquitectura funcional</span>
+          <h2>M&oacute;dulos del Sistema</h2>
+          <p>Componentes principales para administrar usuarios, tarifas, transacciones, reportes y pron&oacute;sticos.</p>
+        </div>
+
+        <div class="sys-module-grid">
+          <article class="sys-module-card wb-reveal"><span>01</span><h3>Gesti&oacute;n de Usuarios</h3><p>Alta, consulta y control de usuarios responsables del registro operativo.</p></article>
+          <article class="sys-module-card wb-reveal"><span>02</span><h3>Gesti&oacute;n de Roles</h3><p>Permisos diferenciados para administradores y operadores.</p></article>
+          <article class="sys-module-card wb-reveal"><span>03</span><h3>Categor&iacute;as de Pasajeros</h3><p>Clasificaci&oacute;n de pasajeros generales, estudiantes y discapacidad.</p></article>
+          <article class="sys-module-card wb-reveal"><span>04</span><h3>Tarifas</h3><p>Valores vigentes para cobro diferenciado por categor&iacute;a.</p></article>
+          <article class="sys-module-card wb-reveal"><span>05</span><h3>Registro de Cobros</h3><p>Formulario transaccional conectado al mapeo DER del cobro.</p></article>
+          <article class="sys-module-card wb-reveal"><span>06</span><h3>Historial de Cobros</h3><p>Consulta de operaciones registradas por fecha, ruta y turno.</p></article>
+          <article class="sys-module-card wb-reveal"><span>07</span><h3>Reportes</h3><p>Consolidaci&oacute;n diaria, semanal y mensual de ingresos.</p></article>
+          <article class="sys-module-card wb-reveal"><span>08</span><h3>Pron&oacute;stico de Ingresos</h3><p>Estimaci&oacute;n basada en datos hist&oacute;ricos para decisiones administrativas.</p></article>
+          <article class="sys-module-card wb-reveal"><span>09</span><h3>Exportaci&oacute;n PDF/Excel</h3><p>Salida documental para respaldo y presentaci&oacute;n institucional.</p></article>
+          <article class="sys-module-card wb-reveal"><span>10</span><h3>Alertas de Ingresos</h3><p>Notificaciones cuando la recaudaci&oacute;n cae bajo umbrales esperados.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sys-section sys-section--split" id="registro-cobro">
+      <div class="sys-container sys-workspace">
+        <div class="sys-form-panel wb-reveal">
+          <div class="sys-section__head">
+            <span class="sys-kicker">Caso de uso central</span>
+            <h2>Registrar Cobro</h2>
+            <p>La tarifa se selecciona autom&aacute;ticamente seg&uacute;n la categor&iacute;a y el monto total se actualiza en tiempo real.</p>
+          </div>
+
+          <form class="sys-payment-form" id="sysCobroForm">
+            <div class="sys-field">
+              <label for="fechaCobro">Fecha de Cobro</label>
+              <input type="date" id="fechaCobro" name="fecha" required />
+            </div>
+
+            <div class="sys-field">
+              <label for="rutaCobro">Ruta</label>
+              <select id="rutaCobro" name="ruta" required>
+                <option value="Ceja - Villa Adela">Ceja - Villa Adela</option>
+                <option value="Faro Murillo - Rio Seco">Faro Murillo - R&iacute;o Seco</option>
+                <option value="16 de Julio - Senkata">16 de Julio - Senkata</option>
+              </select>
+            </div>
+
+            <div class="sys-field">
+              <label for="turnoCobro">Turno</label>
+              <select id="turnoCobro" name="turno" required>
+                <option value="Manana">Ma&ntilde;ana</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noche">Noche</option>
+              </select>
+            </div>
+
+            <div class="sys-field">
+              <label for="categoriaCobro">Categor&iacute;a</label>
+              <select id="categoriaCobro" name="categoria" required>
+                <option value="General" data-tarifa="1.50">General</option>
+                <option value="Estudiante" data-tarifa="1.00">Estudiante</option>
+                <option value="Discapacidad" data-tarifa="0.00">Discapacidad</option>
+              </select>
+            </div>
+
+            <div class="sys-field">
+              <label for="tarifaCobro">Tarifa</label>
+              <input type="number" id="tarifaCobro" name="tarifa" value="1.50" min="0" step="0.01" readonly />
+            </div>
+
+            <div class="sys-field">
+              <label for="cantidadCobro">Cantidad de pasajeros</label>
+              <input type="number" id="cantidadCobro" name="cantidad" value="1" min="0" step="1" required />
+            </div>
+
+            <div class="sys-field sys-field--total">
+              <label for="montoCobro">Monto total</label>
+              <input type="number" id="montoCobro" name="monto" value="1.50" min="0" step="0.01" readonly />
+            </div>
+
+            <div class="sys-field">
+              <label for="usuarioCobro">Usuario responsable</label>
+              <input type="text" id="usuarioCobro" name="usuario" value="operador.wayna" required />
+            </div>
+
+            <div class="sys-field sys-field--full">
+              <label for="observacionCobro">Observaci&oacute;n</label>
+              <textarea id="observacionCobro" name="observacion" rows="4" placeholder="Detalle opcional del cobro"></textarea>
+            </div>
+
+            <div class="sys-form-actions">
+              <button class="sys-btn sys-btn--primary" type="submit">Guardar Cobro</button>
+              <button class="sys-btn sys-btn--ghost" type="reset">Limpiar</button>
+            </div>
+          </form>
+        </div>
+
+        <aside class="sys-der-card wb-reveal">
+          <span class="sys-kicker">Entidad Cobro</span>
+          <h2>Mapeo HTML &rarr; DER</h2>
+          <div class="sys-der-relations">
+            <span>Cobro</span>
+            <small>Ruta</small>
+            <small>Turno</small>
+            <small>CategoriaPasajero</small>
+            <small>Tarifa</small>
+            <small>Usuario</small>
+          </div>
+          <dl class="sys-map-list">
+            <div><dt>fecha</dt><dd>Cobro.fecha</dd></div>
+            <div><dt>ruta</dt><dd>Cobro.idRuta</dd></div>
+            <div><dt>turno</dt><dd>Cobro.idTurno</dd></div>
+            <div><dt>categoria</dt><dd>Cobro.idCategoriaPasajero</dd></div>
+            <div><dt>tarifa</dt><dd>Cobro.idTarifa</dd></div>
+            <div><dt>cantidad</dt><dd>Cobro.cantidadPasajeros</dd></div>
+            <div><dt>monto</dt><dd>Cobro.montoTotal</dd></div>
+            <div><dt>observacion</dt><dd>Cobro.observacion</dd></div>
+            <div><dt>usuario</dt><dd>Cobro.idUsuario</dd></div>
+          </dl>
+          <p class="sys-form-note" id="sysCobroMensaje">Listo para registrar una transacci&oacute;n de cobro.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="sys-section" id="reportes">
+      <div class="sys-container">
+        <div class="sys-section__head wb-reveal">
+          <span class="sys-kicker">Control administrativo</span>
+          <h2>Reportes</h2>
+          <p>Vista de consolidaci&oacute;n para revisar ingresos por periodo, ruta y turno.</p>
+        </div>
+        <div class="sys-report-grid">
+          <article class="sys-report-card wb-reveal"><span>Diario</span><strong>Bs 8,450.50</strong><p>286 cobros registrados.</p></article>
+          <article class="sys-report-card wb-reveal"><span>Semanal</span><strong>Bs 48,920.00</strong><p>Comparaci&oacute;n positiva frente al promedio anterior.</p></article>
+          <article class="sys-report-card wb-reveal"><span>Mensual</span><strong>Bs 196,380.00</strong><p>Base para exportaci&oacute;n PDF y Excel.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sys-section" id="pronostico">
+      <div class="sys-container sys-forecast wb-reveal">
+        <div>
+          <span class="sys-kicker">Pron&oacute;stico de ingresos</span>
+          <h2>Estimaci&oacute;n para la siguiente semana</h2>
+          <p>El m&oacute;dulo proyecta ingresos usando el comportamiento hist&oacute;rico de cobros, rutas y turnos para apoyar decisiones de planificaci&oacute;n.</p>
+        </div>
+        <div class="sys-forecast__value">
+          <span>Ingreso proyectado</span>
+          <strong>Bs 54,700.00</strong>
+          <small>Confianza referencial: 86%</small>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="logo-icon">🚌</span>
+      <span class="logo-text">Wayna<strong>Bus</strong></span>
+      <p>Sistema Web de Cobro Diferenciado y Pronóstico de Ingresos</p>
+    </div>
+    <div class="footer__info">
+      <p><strong>Universidad Privada Franz Tamayo</strong><br>
+      Facultad de Ingeniería — Ingeniería de Sistemas</p>
+      <p>Estudiante: Luis Alberto Montoya Serrano<br>
+      Docente: Ing. Canqui Llusco Javier Elvis</p>
+      <p>El Alto – Bolivia · 2026</p>
+    </div>
+  </div>
+</footer>
+
+  <footer class="wb-footer">
+    <div class="sys-container wb-footer__inner">
+      <p>Wayna Bus - Sistema Web de Cobro Diferenciado y Pron&oacute;stico de Ingresos</p>
+      <a href="documentacion.html">Ver documentaci&oacute;n</a>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
