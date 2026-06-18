@@ -6,7 +6,9 @@
 
 ## 📋 Descripción del Proyecto
 
-Landing page interactiva del proyecto académico para el desarrollo de un **sistema web de cobro diferenciado y pronóstico de ingresos** para el servicio de transporte municipal **Wayna Bus de la ciudad de El Alto, Bolivia**.
+Sitio web académico interactivo del proyecto **Sistema Web de Cobro Diferenciado y Pronóstico de Ingresos** para el servicio de transporte municipal **Wayna Bus de la ciudad de El Alto, Bolivia**.
+
+El proyecto presenta una propuesta visual y funcional del sistema, incluyendo una página principal de presentación, un módulo del sistema de cobro y un módulo de documentación académica del proyecto.
 
 El sistema busca centralizar el registro de cobros, administrar categorías y tarifas diferenciadas, generar reportes de recaudación y estimar ingresos futuros mediante análisis de datos históricos.
 
@@ -14,21 +16,21 @@ El sistema busca centralizar el registro de cobros, administrar categorías y ta
 
 ## 🏗️ Estructura del Proyecto
 
-```
-wayna-bus-landing/
-├── index.html              # Página principal (landing page)
-├── .gitignore              # Archivos ignorados por Git
-├── README.md               # Este archivo
-└── assets/
-    ├── css/
-    │   └── style.css       # Estilos principales
-    ├── js/
-    │   └── main.js         # Lógica e interactividad
-    ├── img/                # Imágenes y recursos gráficos
-    └── fonts/              # Fuentes locales (si aplica)
-```
-
----
+```bash
+wayna-bus-proyecto-weblams/
+├── index.html                     # Página principal del proyecto
+├── README.md                      # Documentación general del repositorio
+├── .gitignore                     # Archivos ignorados por Git
+├── assets/
+│   ├── css/
+│   │   └── style.css              # Estilos globales del sitio y módulos
+│   ├── js/
+│   │   └── main.js                # Lógica de navegación e interactividad
+│   ├── img/                       # Recursos gráficos e imágenes
+│   └── fonts/                     # Fuentes locales (si aplica)
+└── modulos/
+    ├── sistema.html               # Módulo visual del sistema de cobro
+    └── documentacion.html         # Módulo de documentación académica
 
 ## 📚 Capítulos del Proyecto
 
@@ -118,6 +120,9 @@ wayna-bus-landing/
 3. No requiere servidor ni dependencias externas
 
 ---
+## 🎯 Propósito Académico
+
+Este proyecto fue desarrollado con fines académicos para representar el análisis, diseño y propuesta visual de un sistema web orientado al cobro diferenciado y al pronóstico de ingresos del servicio municipal Wayna Bus.
 
 ## 📄 Licencia
 
